@@ -17,14 +17,14 @@ python_requires='>=3.5'
 install_requires = [
     'rx>=3.0',
     'scipy>=1.0',
-    'cyclotron>=1.2',
+    'cyclotron>=1.0',
     'cyclotron-aiohttp>=1.0',
     'cyclotron-std>=1.0',
 ]
 
 setup(
     name="deepspeech-server",
-    version='2.1.0',
+    version='2.0.0',
     url='https://github.com/MainRo/deepspeech-server.git',
     license='MPL-2.0',
     description="server for mozilla deepspeech",

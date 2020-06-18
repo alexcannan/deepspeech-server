@@ -1,7 +1,13 @@
 {
   "deepspeech": {
-    "model" :"deepspeech-0.7.1-models.pbmm",
-    "scorer" :"deepspeech-0.7.1-models.scorer"
+    "model" :"output_graph.pbmm",
+    "lm": "lm.binary",
+    "trie": "trie",
+    "features": {
+      "beam_width": 500, 
+      "lm_alpha": 0.75,
+      "lm_beta": 1.85
+    }
   },
   "server": {
     "http": {
